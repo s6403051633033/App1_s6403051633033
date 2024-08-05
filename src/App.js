@@ -1,11 +1,13 @@
 import React from 'react'
-import './style.css'
+import Calender from './class-components'
+
 
 function App(){
   return(
     <>
-    <h2>DeveloperThai.com</h2>
-    <div className='title'>React & React Native123</div>
+    
+    <p><center><Calender></Calender></center></p>
+    
     </>
   )
 }
