@@ -1,7 +1,7 @@
 import React from 'react'; 
-import Button from './class-components'; 
-function App() {
-    return <Button />;  
-}
+import { EventData2 } from './event-data'; 
 
-export default App; 
+
+export default function App(){
+  return <EventData2/>;
+} 
